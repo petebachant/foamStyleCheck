@@ -32,9 +32,9 @@ Finally, run the style checking script:
 ### Setting up Travis CI
 
 To integrate with Travis CI, this repository can either be added as a submodule
-to any OpenFOAM project, which would allow local testing, or can be cloned
-separately as part of the Travis testing process, which is configured in the
-repository's `travis.yml` file.
+to any OpenFOAM project, as described above, which would allow local testing,
+or can be cloned separately as part of the Travis testing process, which is
+configured in the repository's `.travis.yml` file.
 
 The Travis CI configuration should be modified to ensure `vera++` is
 installed and the `checkStyle` script is run at some phase in the testing
